@@ -1,17 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Homeitem from "./homeitem";
+import  data  from "./data.json";
 
-function home() {
-    const block=[
-        {name: "Transformation", to:"/textarea"},
-        {name: "More", to:"/"},
-    ]
-  return (
-    <div className='grid grid-cols-1 container mx-auto'>
-       <div className="my-3">
-        Jyotirmoy™
-       </div>
-    </div>
-  )
+export class home extends Component {
+  render() {
+    return (
+      <div className='flex m-3 gap-2 flex-wrap'>
+        
+      </div>
+    )
+  }
 }
 
 export default home
